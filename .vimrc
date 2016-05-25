@@ -2,6 +2,7 @@
 " colorscheme morning
 " http://vim.wikia.com/wiki/Switch_color_schemes
 colorscheme elflord
+set mouse=a
 set clipboard=unnamed
 
 " 修改backspace的工作模式
