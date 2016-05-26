@@ -44,6 +44,8 @@
 
 - awesome Python autocompletion with VIM: [jedi-vim](https://github.com/davidhalter/jedi-vim)
 
+- [ctrlp.vim](https://github.com/ctrlpvim/ctrlp.vim)
+
 ## git
 
 - 默认没设置config user.email, uer.name, 可以根据git提示设置全局的或者项目的user.name和user.email
