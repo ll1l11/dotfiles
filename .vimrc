@@ -45,7 +45,7 @@ nnoremap <C-t>     :tabnew<CR>
 " search ignore character case
 " set ignorecase
 
-" set cmdheight=2
+set cmdheight=2
 
 " show status
 " set laststatus=2
