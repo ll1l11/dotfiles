@@ -59,7 +59,15 @@ filetype plugin indent on
 
 " https://github.com/scrooloose/nerdtree
 map <C-n> :NERDTreeToggle<CR>
-nnoremap <F2> :TagbarToggle<cr>
+let NERDTreeIgnore = ['\.pyc$']
+
+" :Tlist              调用TagList
+" taglist  按F2按钮，出现taglist的窗口
+nnoremap <silent> <F2> :TlistToggle<CR><CR>
+" let Tlist_Show_One_File=0                    " 只显示当前文件的tags
+" let Tlist_Exit_OnlyWindow=1                  " 如果Taglist窗口是最后一个窗口则退出Vim
+let Tlist_Use_Right_Window=1                 " 在右侧窗口中显示
+" let Tlist_File_Fold_Auto_Close=1             " 自动折叠
 
 " flake8快捷键, 默认是F7
 autocmd FileType python map <buffer> <F3> :call Flake8()<CR>
