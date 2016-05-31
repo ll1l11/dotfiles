@@ -28,6 +28,11 @@ set softtabstop=4
 " 搜索高亮
 set hlsearch
 
+" Disable backup and swap files
+set nobackup
+set nowritebackup
+set noswapfile
+
 " 快速切换窗口
 map <C-j> <C-w>j
 map <C-k> <C-w>k
